@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- inicio navbar -->
+  <nav class="navbar has-shadow is-black">
+    <div class="navbar-brand">
+      <img class="milogo py-2 px-2" src="havanna.png">
+      <a class="navbar-burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+    <div class="navbar-menu" id="nav-links">
+      <div class="navbar-end">
+        <a class="navbar-item">Mi Cuenta</a>
+        <a class="navbar-item">Carrito de compra (0)</a>
+      </div>
+    </div>
+  </nav>
+  <!-- fin de navbar -->
+  <!-- inicio migas de pan -->
+  <div class="section">
+    <nav class="breadcrumb has-arrow-separator">
+      <ul>
+        <li><a>Inicio</a></li>
+        <li><a>Shop</a></li>
+        <li><a>70% cacao amargo</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="section">
+    <!-- fin migas de pan -->
+    <!-- Inicio producto-->
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-3">
+          <h1 class="is-size-1 title">70% CACAO AMARGO</h1>
+          <h2 class="is-size-2 subtitle">mas chocolate</h2>
+          <p>Nuevo alfajor, pensado para disfrutar sin culpa, irresistible y mejor que nunca.</p>
+        </div>
+        <div class="column is-5">
+          <img src="Alfajor-70-Envoltorio.jpg" alt="cacao" class="px-6">
+        </div>
+        <div class="column is-4">
+          <div class="is-size-4 mb-4">$145.5</div>
+          <p class="mb-4">Disponible en tiendas sucursales, online y revendedores ¿Qué estás esperando?</p>
+          <button class="button is-black is-rounded">Agregar al Carrito</button>
+        </div>
+      </div>
+    </div>
+  </div><!-- fin producto-->
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-7">
+          <!-- tabs o pestañas-->
+        </div>
+        <div class="column is-5">
+          <div class="column">
+            <!-- caja de mensajes-->
+            <div class="message is-black">
+              <div class="message-header">
+                <p>Canjea tus puntos de Havanna Club Client</p>
+              </div>
+              <div class="message-body">
+                <p>Para cajear tus puntos de Havanna Club Client, debes registrarte, seguir los pasos y disfrutar al
+                  máximo de todas las promociones.</p>
+                <div class="has-text-centered">
+                  <button class="button mt-5" id="regis">Registrarse</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Inicio cards relacionadas-->
+  <div class="section">
+    <div class="container">
+      <h3 class="title has-text-centered">Productos Relacionados</h3>
+      <div class="columns is-centered">
+        <div class="column is-3">
+          <div class="card">
+            <div class="card-image has-text-centered">
+              <img src="havannets.jpg" alt="conitos">
+            </div>
+            <div class="card-content">
+              <p>$1200</p>
+              <p class="title is-size-5">Havannets x12</p>
+            </div>
+            <div class="card-footer">
+              <p class="card-footer-item">
+                <a href="#" class="has-text-grey">Ver mas</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-3">
+          <div class="card">
+            <div class="card-image has-text-centered">
+              <img src="Galle-Limon-Choco.jpg" alt="limon">
+            </div>
+            <div class="card-content">
+              <p>$1000</p>
+              <p class="title is-size-5">Galletitas de Limon y chocolate x12</p>
+            </div>
+            <div class="card-footer">
+              <p class="card-footer-item">
+                <a href="#" class="has-text-grey">Ver mas</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-3">
+          <div class="card">
+            <div class="card-image has-text-centered">
+              <img src="nueces.jpg" alt="alfajores">
+            </div>
+            <div class="card-content">
+              <p>$1500</p>
+              <p class="title is-size-5">Alfajores de nueces, almendras y ddl x12</p>
+            </div>
+            <div class="card-footer">
+              <p class="card-footer-item">
+                <a href="#" class="has-text-grey">Ver mas</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div> <!-- Fin cards relacionadas-->
+  <!--modal-->
+  <!-- <div class="modal is-active">
+    <div class="modal-background"></div>
+    <div class="modal-content has-background-white py-5 px-5">
+      <h3 class="title mb-6">Unite al Havanna Club Client</h3>
+      <form>
+        <div class="field">
+          <label class="label">Nombre</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Nombre">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input class="input" type="email" placeholder="Email">
+
+            </span>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <label class="checkbox">
+              <input type="checkbox">
+              Yo Acepto los <a href="#">terminos y condiciones</a>
+            </label>
+          </div>
+
+        </div>
+    </div>
+    <div class="mt-6 has-text-centered">
+      <button class="button is-white">Registrarse</button>
+    </div>
+    </form>
+  </div>
+
+  </div> -->
+</body>
+
+</html>
